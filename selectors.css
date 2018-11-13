@@ -1,0 +1,31 @@
+header {
+   border-style: solid;
+   border-width:  1px;
+   border-color: goldenrod;
+}
+header li {
+   display: inline;
+   list-style-type: none;
+}
+.disabled {
+   color: gray;
+} 
+span.disabled {
+   color: purple;
+}
+.active {
+   color: yellow;
+}
+.parent >div >div:first-child {
+   color: red;
+}
+.parent >div >div:last-of-type {
+   color: blue;
+}
+.promo {
+   font-weight: bold;
+   color: gold; 
+}
+.padded {
+   height: 25px;
+}
