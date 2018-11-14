@@ -48,6 +48,7 @@ span.disabled {
    border-width: 1px;
    border-radius: 25px;
 }
-.padded >span {
-   line-height: 25px;
+
+input {
+   height: 25px;
 }
