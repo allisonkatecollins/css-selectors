@@ -1,7 +1,5 @@
 header {
-   border-style: solid;
-   border-width:  1px;
-   border-color: goldenrod;
+   border: solid 1px goldenrod;
 }
 
 header li {
@@ -14,7 +12,7 @@ header li {
    color: gray;
 } 
 
-span.disabled {
+a .disabled, a.disabled {
    color: purple;
 }
 
@@ -22,7 +20,7 @@ span.disabled {
    color: yellow;
 }
 
-.parent >div >div:first-child {
+.parent >div >div {
    color: red;
 }
 
@@ -44,8 +42,7 @@ span.disabled {
 }
 
 .grandparent >h4 {
-   border-style: solid;
-   border-width: 1px;
+   border: 1px solid;
    border-radius: 25px;
 }
 
