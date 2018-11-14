@@ -3,29 +3,51 @@ header {
    border-width:  1px;
    border-color: goldenrod;
 }
+
 header li {
    display: inline;
    list-style-type: none;
+   padding-right: 30px;
 }
+
 .disabled {
    color: gray;
 } 
+
 span.disabled {
    color: purple;
 }
+
 .active {
    color: yellow;
 }
+
 .parent >div >div:first-child {
    color: red;
 }
+
 .parent >div >div:last-of-type {
    color: blue;
 }
+
+.parent >div >div:first-child + h4 {
+   background-color: red;
+}
+
+.parent >div >div:last-of-type + h4 {
+   background-color: blue;
+}
+
 .promo {
    font-weight: bold;
    color: gold; 
 }
-.padded {
-   height: 25px;
+
+.grandparent >h4 {
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 25px;
+}
+.padded >span {
+   line-height: 25px;
 }
